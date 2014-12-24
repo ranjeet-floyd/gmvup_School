@@ -1,0 +1,6 @@
+C:\Users\StackOverflow\Dropbox\DHS\gmv_School\gmv_School\bin\gmv_School.dll.config
+C:\Users\StackOverflow\Dropbox\DHS\gmv_School\gmv_School\bin\gmv_School.dll
+C:\Users\StackOverflow\Dropbox\DHS\gmv_School\gmv_School\bin\gmv_School.pdb
+C:\Users\StackOverflow\Dropbox\DHS\gmv_School\gmv_School\obj\Release\gmv_School.dll
+C:\Users\StackOverflow\Dropbox\DHS\gmv_School\gmv_School\obj\Release\gmv_School.pdb
+C:\Users\StackOverflow\Dropbox\DHS\gmv_School\gmv_School\obj\Release\gmv_School.csprojResolveAssemblyReference.cache

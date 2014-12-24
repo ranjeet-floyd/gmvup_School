@@ -1,0 +1,80 @@
+.change-preset{ 
+    z-index: 900; 
+    position: fixed;
+   	left: -180px; 
+    top: 178px; 
+}
+
+.change-preset a {
+	font-weight: 300;
+	padding: 0;
+	font-size:10px;
+	margin: 5px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.change-preset span a:hover, .change-preset span a:active {opacity:1; color:#7F7F7F;}
+
+.change-preset .settings-icon{
+	background: #fff;
+	padding: 8px 13px 0px 13px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    float: right;
+    height: 40px;
+    width: 40px;
+}
+
+.preset-holder p {color:#7F7F7F;}
+
+.preset-holder a.btn.btn-primary{
+    padding: 5px 3px;
+    margin-left: 18px;
+}
+
+.change-preset .preset-holder {
+	background: #fff;
+    float: right;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    width: 178px;
+    padding: 10px 0;
+}
+
+.change-preset .preset-holder p{
+    padding:0 20px;
+    font-size: 10px;
+}
+
+
+.change-preset .preset-holder input{
+    width: 55px;
+	border-radius: 0 10px 10px 0;
+	box-shadow: none;
+}
+
+.change-preset .preset-holder form{
+    padding: 0 20px;
+}
+
+
+#preset-styles{
+    padding:0 10px;
+}
+#preset-styles a{
+	text-decoration: none;
+	padding-left: 5px;
+	display: inline-block;
+}
+#preset-styles img{
+	width: 35px;
+	height: 30px;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+.change-preset{
+    display: none;
+}
+} 

@@ -1,0 +1,172 @@
+/* anchor */
+a{
+	color: #0c7fcf;
+}
+a:hover{
+	color: #09619f;
+}
+
+/* read more */
+.readmore:hover {
+  background: #0c7fcf;
+}
+.readmore{
+  background: #ddf0fd;
+  border: 1px solid #7dc5f7;
+}
+
+/* btn */
+.btn.btn-default{
+	color: #0C7FCF !important;
+}
+.btn.btn-default:hover{
+	background: #0C7FCF;
+}
+.btn.btn-primary{
+	background: #0C7FCF;
+}
+.btn.btn-primary:hover {
+	color: #0C7FCF !important;
+}
+.btn.btn-primary:hover a{
+	color:#0C7FCF !important;
+}
+
+
+/* typography */
+ul.icon_check_sign li:before {
+  color: #0c7fcf;
+}
+
+/* heading */
+h1,h2,h3,h4,h5,h6{
+  color:#0C7FCF;
+}
+
+/* logo */
+a.text-logo{
+  background-image: url(../../images/presets/preset1/logo.png);
+}
+
+/* Navigation */
+.navbar-main > li:hover > a,
+.navbar-main > li.current-menu-item > a,
+.navbar-main > li.current-menu-ancestor > a,
+.navbar-main > li.current-menu-item:hover > a{
+  color: #0c7fcf;
+}
+.navbar-main .dropdown-menu {
+  border-top: 2px solid #0c7fcf;
+}
+.navbar-main .dropdown-menu > li:hover > a,
+.navbar-main .dropdown-menu > li:focus > a,
+.navbar-main .dropdown-menu > li.current-menu-item > a,
+.navbar-main .dropdown-menu > li.current-menu-ancestor > a{
+  color:#0c7fcf;
+}
+
+.navbar-nav > li.current-menu-item > a,
+.navbar-nav > li.current-menu-ancestor > a, 
+.navbar-nav > li > ul > li.current-menu-item >a{
+  color: #0c7fcf;
+}
+
+/* slider */
+#main-slider .carousel a.btn{
+	background-color: #0C7FCF;
+}
+#main-slider .carousel a.btn:hover{
+  color:#0C7FCF;
+}
+
+/* thm features*/
+#thm-features .item .img-circle{
+  background: #0c7fcf;
+}
+#thm-features .carousel-indicators .active {
+  background: #0c7fcf;
+}
+
+/* thm events*/
+#thm-events h3{
+  color: #0c7fcf;
+}
+time.events{
+  color: #0c7fcf;
+}
+
+/* thm academic college */
+#thm-college-history .bottom-history h3{
+  color: #0c7fcf;
+}
+
+/* start blog single */
+.pager .previous>a, 
+.pager .next>a{
+  color: #0C7FCF;
+}
+.pager .previous>a:hover, 
+.pager .next>a:hover{
+  background: #0C7FCF;
+}
+
+/* footer */
+#footer a:hover {
+  color: #0c7fcf;
+}
+a#gototop i:hover{
+  background: #0c7fcf;
+}
+
+/* about us page */
+.team-photo .about-name{
+	background: #0C7FCF;
+}
+
+/* events */
+.events-date{
+  background: #0c7fcf;
+}
+.event-time span{
+  color:#0c7fcf;
+}
+
+/* event Sidebar */
+#event-wrapper .right-text{
+  background: #0c7fcf;
+}
+
+/* custom post type queries */
+.site-content h2.thm-header{
+  color: #0c7fcf;
+}
+
+/* parallax start */
+.parallax{
+  background-color: #0C7FCF;
+}
+
+/* thm gallery */
+#thm-gallery .gallery-content{
+  background-color: rgba(12,126,207,0.8);
+}
+
+/* Pagination */
+ul.pagination li span.current {
+  background: #0c7fcf;
+}
+ul.pagination li a:hover {
+  background: #0c7fcf;
+}
+
+/* tag */
+.widget-area .tagcloud a{
+	background-color: #0c7fcf;
+  border: 1px solid transparent;
+}
+
+.widget-area .tagcloud a:hover{
+    background-color: #ddf0fd;
+    color: #0c7fcf;
+    border: 1px solid #7dc5f7;
+}

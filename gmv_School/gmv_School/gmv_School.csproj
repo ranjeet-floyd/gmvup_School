@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F5CCAF10-3DCB-4C2B-BF35-614907CC5D9D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>gmv_School</RootNamespace>
+    <AssemblyName>gmv_School</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gmvup\about_us.html" />
+    <Content Include="gmvup\about_us1.html" />
+    <Content Include="gmvup\about_us2.html" />
+    <Content Include="gmvup\about_us3.html" />
+    <Content Include="gmvup\Blog2.html" />
+    <Content Include="gmvup\bog.html" />
+    <Content Include="gmvup\Contact Us_files\AuthenticationService.Authenticate" />
+    <Content Include="gmvup\Contact Us_files\css" />
+    <Content Include="gmvup\Contact Us_files\js" />
+    <Content Include="gmvup\Contact Us_files\kh" />
+    <Content Include="gmvup\Contact Us_files\QuotaService.RecordEvent" />
+    <Content Include="gmvup\Contact Us_files\ViewportInfoService%281%29.GetViewportInfo" />
+    <Content Include="gmvup\Contact Us_files\ViewportInfoService.GetViewportInfo" />
+    <Content Include="gmvup\Contact Us_files\vt" />
+    <Content Include="gmvup\Contact Us_files\vt%281%29" />
+    <Content Include="gmvup\Contact Us_files\vt%282%29" />
+    <Content Include="gmvup\Contact Us_files\vt%283%29" />
+    <Content Include="gmvup\Contact Us_files\vt%284%29" />
+    <Content Include="gmvup\ContactForm.html" />
+    <Content Include="gmvup\ContactUs.html" />
+    <Content Include="gmvup\css\animate.css" />
+    <Content Include="gmvup\css\bootstrap.min.css" />
+    <Content Include="gmvup\css\font-awesome.css" />
+    <Content Include="gmvup\css\font-awesome.min.css" />
+    <Content Include="gmvup\css\jquery.bxslider.css" />
+    <Content Include="gmvup\css\preset1.css" />
+    <Content Include="gmvup\css\prettyPhoto.css" />
+    <Content Include="gmvup\css\style.css" />
+    <Content Include="gmvup\css\styleswitcher.css" />
+    <Content Include="gmvup\fonts\fontawesome-webfont.svg" />
+    <Content Include="gmvup\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="gmvup\Home.html" />
+    <Content Include="gmvup\images\1.jpg" />
+    <Content Include="gmvup\images\233826a67be66a810b23a263230da62e_XL-435x195.jpg" />
+    <Content Include="gmvup\images\about.png" />
+    <Content Include="gmvup\images\ac.jpg" />
+    <Content Include="gmvup\images\ac1.jpg" />
+    <Content Include="gmvup\images\banner-6.png" />
+    <Content Include="gmvup\images\bg1.jpg" />
+    <Content Include="gmvup\images\bg2.jpg" />
+    <Content Include="gmvup\images\bg3.jpg" />
+    <Content Include="gmvup\images\bg4.jpg" />
+    <Content Include="gmvup\images\blog.png" />
+    <Content Include="gmvup\images\blog31-435x195.jpg" />
+    <Content Include="gmvup\images\blog8-435x195.png" />
+    <Content Include="gmvup\images\blog9-435x195.png" />
+    <Content Include="gmvup\images\bottom3_ad.png" />
+    <Content Include="gmvup\images\buffer-hover-icon%401x.png" />
+    <Content Include="gmvup\images\contact.png" />
+    <Content Include="gmvup\images\cp.jpg" />
+    <Content Include="gmvup\images\dg.jpg" />
+    <Content Include="gmvup\images\e2bf3b11df0b872112757f1c2fee6e32_XL-435x195.jpg" />
+    <Content Include="gmvup\images\feature11.png" />
+    <Content Include="gmvup\images\feature21.png" />
+    <Content Include="gmvup\images\feature22.png" />
+    <Content Include="gmvup\images\feature31.png" />
+    <Content Include="gmvup\images\feature32.png" />
+    <Content Include="gmvup\images\feature4.png" />
+    <Content Include="gmvup\images\feature41.png" />
+    <Content Include="gmvup\images\feature51.png" />
+    <Content Include="gmvup\images\feature6.png" />
+    <Content Include="gmvup\images\feature61.png" />
+    <Content Include="gmvup\images\feature7.png" />
+    <Content Include="gmvup\images\feature8.png" />
+    <Content Include="gmvup\images\feature9.png" />
+    <Content Include="gmvup\images\founders.jpg" />
+    <Content Include="gmvup\images\gallery110.jpg" />
+    <Content Include="gmvup\images\gallery21.jpg" />
+    <Content Include="gmvup\images\gallery46.jpg" />
+    <Content Include="gmvup\images\gallery51.jpg" />
+    <Content Include="gmvup\images\gallery65.jpg" />
+    <Content Include="gmvup\images\gallery71.jpg" />
+    <Content Include="gmvup\images\gallery81.jpg" />
+    <Content Include="gmvup\images\gmv images\camp\c1.JPG" />
+    <Content Include="gmvup\images\gmv images\camp\c2.JPG" />
+    <Content Include="gmvup\images\gmv images\camp\c3.JPG" />
+    <Content Include="gmvup\images\gmv images\camp\c4.JPG" />
+    <Content Include="gmvup\images\gmv images\camp\c5.JPG" />
+    <Content Include="gmvup\images\gmv images\camp\c6.JPG" />
+    <Content Include="gmvup\images\gmv images\camp\c7.JPG" />
+    <Content Include="gmvup\images\gmv images\camp\c8.JPG" />
+    <Content Include="gmvup\images\gmv images\contact %282%29.jpg" />
+    <Content Include="gmvup\images\gmv images\contact.jpg" />
+    <Content Include="gmvup\images\gmv images\event\e10.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e11.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e12.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e13.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e14.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e15.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e16.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e17.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e18.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e19.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e20.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e21.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e22.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e23.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e24.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e25.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e26.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e27.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e28.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e29.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e30.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e4.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e5.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e6.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e7.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e8.JPG" />
+    <Content Include="gmvup\images\gmv images\event\e9.JPG" />
+    <Content Include="gmvup\images\gmv images\founder.png" />
+    <Content Include="gmvup\images\gmv images\logo1.png" />
+    <Content Include="gmvup\images\gmv images\logo3.png" />
+    <Content Include="gmvup\images\gmv images\social event\s1.JPG" />
+    <Content Include="gmvup\images\gmv images\social event\s10.JPG" />
+    <Content Include="gmvup\images\gmv images\social event\s2.JPG" />
+    <Content Include="gmvup\images\gmv images\social event\s3.JPG" />
+    <Content Include="gmvup\images\gmv images\social event\s4.JPG" />
+    <Content Include="gmvup\images\gmv images\social event\s5.JPG" />
+    <Content Include="gmvup\images\gmv images\social event\s6.JPG" />
+    <Content Include="gmvup\images\gmv images\social event\s7.JPG" />
+    <Content Include="gmvup\images\gmv images\social event\s8.JPG" />
+    <Content Include="gmvup\images\gmv images\social event\s9.JPG" />
+    <Content Include="gmvup\images\gmv images\sport\group.JPG" />
+    <Content Include="gmvup\images\gmv images\sport\sp1.JPG" />
+    <Content Include="gmvup\images\gmv images\sport\sp10.JPG" />
+    <Content Include="gmvup\images\gmv images\sport\sp11.JPG" />
+    <Content Include="gmvup\images\gmv images\sport\sp12.JPG" />
+    <Content Include="gmvup\images\gmv images\sport\sp13.JPG" />
+    <Content Include="gmvup\images\gmv images\sport\sp14.JPG" />
+    <Content Include="gmvup\images\gmv images\sport\sp15.JPG" />
+    <Content Include="gmvup\images\gmv images\sport\sp2.JPG" />
+    <Content Include="gmvup\images\gmv images\sport\sp3.JPG" />
+    <Content Include="gmvup\images\gmv images\sport\sp4.JPG" />
+    <Content Include="gmvup\images\gmv images\sport\sp5.JPG" />
+    <Content Include="gmvup\images\gmv images\sport\sp6.JPG" />
+    <Content Include="gmvup\images\gmv images\sport\sp7.JPG" />
+    <Content Include="gmvup\images\gmv images\sport\sp8.JPG" />
+    <Content Include="gmvup\images\gmv images\sport\sp9.JPG" />
+    <Content Include="gmvup\images\logo.jpg" />
+    <Content Include="gmvup\images\logo2.png" />
+    <Content Include="gmvup\images\mapcnt3.png" />
+    <Content Include="gmvup\images\photo.jpg" />
+    <Content Include="gmvup\images\preset1 - Copy.png" />
+    <Content Include="gmvup\images\preset1.png" />
+    <Content Include="gmvup\images\preset2.png" />
+    <Content Include="gmvup\images\preset3.png" />
+    <Content Include="gmvup\images\preset4.png" />
+    <Content Include="gmvup\images\preset5.png" />
+    <Content Include="gmvup\images\preset6.png" />
+    <Content Include="gmvup\images\q.jpg" />
+    <Content Include="gmvup\images\sc.jpg" />
+    <Content Include="gmvup\images\sk.jpg" />
+    <Content Include="gmvup\images\slide1.jpg" />
+    <Content Include="gmvup\images\slide11.jpg" />
+    <Content Include="gmvup\images\slide2.jpg" />
+    <Content Include="gmvup\images\slide3.jpg" />
+    <Content Include="gmvup\images\tmapctrl.png" />
+    <Content Include="gmvup\images\transparent.png" />
+    <Content Include="gmvup\js\bootstrap.min.js" />
+    <Content Include="gmvup\js\common.js" />
+    <Content Include="gmvup\js\controls.js" />
+    <Content Include="gmvup\js\init_embed.js" />
+    <Content Include="gmvup\js\jquery-migrate.min.js" />
+    <Content Include="gmvup\js\jquery-ui.min.js" />
+    <Content Include="gmvup\js\jquery.bxslider.min.js" />
+    <Content Include="gmvup\js\jquery.isotope.min.js" />
+    <Content Include="gmvup\js\jquery.js" />
+    <Content Include="gmvup\js\jquery.prettyPhoto.js" />
+    <Content Include="gmvup\js\jquery.ui.core.min.js" />
+    <Content Include="gmvup\js\main.js" />
+    <Content Include="gmvup\js\map.js" />
+    <Content Include="gmvup\js\modal.js" />
+    <Content Include="gmvup\js\onion.js" />
+    <Content Include="gmvup\js\overlay.js" />
+    <Content Include="gmvup\js\search_impl.js" />
+    <Content Include="gmvup\js\stats.js" />
+    <Content Include="gmvup\js\switcher.js" />
+    <Content Include="gmvup\js\util.js" />
+    <Content Include="gmvup\js\{main,geometry,search}.js" />
+    <Content Include="gmvup\UniversityGallery.html" />
+    <Content Include="Handler\Handler.ashx" />
+    <Content Include="gmvup\fonts\fontawesome-webfont.eot" />
+    <Content Include="gmvup\fonts\fontawesome-webfont.ttf" />
+    <Content Include="gmvup\fonts\fontawesome-webfont.woff" />
+    <Content Include="gmvup\fonts\FontAwesome.otf" />
+    <Content Include="gmvup\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="gmvup\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="gmvup\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="gmvup\less\bordered-pulled.less" />
+    <Content Include="gmvup\less\core.less" />
+    <Content Include="gmvup\less\fixed-width.less" />
+    <Content Include="gmvup\less\font-awesome.less" />
+    <Content Include="gmvup\less\icons.less" />
+    <Content Include="gmvup\less\larger.less" />
+    <Content Include="gmvup\less\list.less" />
+    <Content Include="gmvup\less\mixins.less" />
+    <Content Include="gmvup\less\path.less" />
+    <Content Include="gmvup\less\rotated-flipped.less" />
+    <Content Include="gmvup\less\spinning.less" />
+    <Content Include="gmvup\less\stacked.less" />
+    <Content Include="gmvup\less\variables.less" />
+    <Content Include="gmvup\scss\font-awesome.scss" />
+    <Content Include="gmvup\scss\_bordered-pulled.scss" />
+    <Content Include="gmvup\scss\_core.scss" />
+    <Content Include="gmvup\scss\_fixed-width.scss" />
+    <Content Include="gmvup\scss\_icons.scss" />
+    <Content Include="gmvup\scss\_larger.scss" />
+    <Content Include="gmvup\scss\_list.scss" />
+    <Content Include="gmvup\scss\_mixins.scss" />
+    <Content Include="gmvup\scss\_path.scss" />
+    <Content Include="gmvup\scss\_rotated-flipped.scss" />
+    <Content Include="gmvup\scss\_spinning.scss" />
+    <Content Include="gmvup\scss\_stacked.scss" />
+    <Content Include="gmvup\scss\_variables.scss" />
+    <Content Include="gmvup\Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gmvup\Contact Us.html" />
+    <Content Include="gmvup\Contact Us_files\animate.css" />
+    <Content Include="gmvup\Contact Us_files\bootstrap.min.css" />
+    <Content Include="gmvup\Contact Us_files\bootstrap.min.js" />
+    <Content Include="gmvup\Contact Us_files\common.js" />
+    <Content Include="gmvup\Contact Us_files\controls.js" />
+    <Content Include="gmvup\Contact Us_files\embed.html" />
+    <Content Include="gmvup\Contact Us_files\font-awesome.min.css" />
+    <Content Include="gmvup\Contact Us_files\init_embed.js" />
+    <Content Include="gmvup\Contact Us_files\jquery-migrate.min.js" />
+    <Content Include="gmvup\Contact Us_files\jquery.isotope.min.js" />
+    <Content Include="gmvup\Contact Us_files\jquery.js" />
+    <Content Include="gmvup\Contact Us_files\jquery.prettyPhoto.js" />
+    <Content Include="gmvup\Contact Us_files\jquery.ui.core.min.js" />
+    <Content Include="gmvup\Contact Us_files\logo2.png" />
+    <Content Include="gmvup\Contact Us_files\main.js" />
+    <Content Include="gmvup\Contact Us_files\map.js" />
+    <Content Include="gmvup\Contact Us_files\mapcnt3.png" />
+    <Content Include="gmvup\Contact Us_files\modal.js" />
+    <Content Include="gmvup\Contact Us_files\onion.js" />
+    <Content Include="gmvup\Contact Us_files\overlay.js" />
+    <Content Include="gmvup\Contact Us_files\photo.jpg" />
+    <Content Include="gmvup\Contact Us_files\preset1.css" />
+    <Content Include="gmvup\Contact Us_files\preset1.png" />
+    <Content Include="gmvup\Contact Us_files\preset2.png" />
+    <Content Include="gmvup\Contact Us_files\preset3.png" />
+    <Content Include="gmvup\Contact Us_files\preset4.png" />
+    <Content Include="gmvup\Contact Us_files\preset5.png" />
+    <Content Include="gmvup\Contact Us_files\preset6.png" />
+    <Content Include="gmvup\Contact Us_files\prettyPhoto.css" />
+    <Content Include="gmvup\Contact Us_files\search_impl.js" />
+    <Content Include="gmvup\Contact Us_files\stats.js" />
+    <Content Include="gmvup\Contact Us_files\style.css" />
+    <Content Include="gmvup\Contact Us_files\styleswitcher.css" />
+    <Content Include="gmvup\Contact Us_files\switcher.js" />
+    <Content Include="gmvup\Contact Us_files\tmapctrl.png" />
+    <Content Include="gmvup\Contact Us_files\transparent.png" />
+    <Content Include="gmvup\Contact Us_files\util.js" />
+    <Content Include="gmvup\Contact Us_files\{main,geometry,search}.js" />
+    <Content Include="image\q.jpg" />
+    <Content Include="Script\jquery.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Handler\Handler.ashx.cs">
+      <DependentUpon>Handler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50869</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50869/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
