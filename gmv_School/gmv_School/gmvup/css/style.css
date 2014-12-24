@@ -2662,12 +2662,11 @@ box-shadow: 0 0 5px 5px #888;
 
 .txtShadow
 {
-	text-shadow:
-	1px 1px 0 #CCC,
-	2px 2px 0 #CCC, /* end of 2 level deep grey shadow */
-	3px 3px 0 #444,
-	4px 4px 0 #444,
-	5px 5px 0 #444,
-	6px 6px 0 #444; /* end of 4 level deep dark shadow */
+	font-family: 'Bookman Old Style', serif;
+line-height: 1em;
+color: #6bb7e0;
+font-weight:bold;
+font-size: 41px;
+text-shadow:0px 0px 0 rgb(83,159,200),0px 1px 0 rgb(68,144,185),0px 2px 0 rgb(54,130,171),0px 3px 0 rgb(39,115,156),0px 4px 0 rgb(25,101,142),0px 5px 0 rgb(10,86,127), 0px 6px 0 rgb(-4,72,113),0px 7px 6px rgba(0,0,0,0.2),0px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
     letter-spacing: 2px;
 }

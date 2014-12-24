@@ -4,3 +4,9 @@ C:\Users\StackOverflow\Dropbox\DHS\gmv_School\gmv_School\bin\gmv_School.pdb
 C:\Users\StackOverflow\Dropbox\DHS\gmv_School\gmv_School\obj\Debug\gmv_School.dll
 C:\Users\StackOverflow\Dropbox\DHS\gmv_School\gmv_School\obj\Debug\gmv_School.pdb
 C:\Users\StackOverflow\Dropbox\DHS\gmv_School\gmv_School\obj\Debug\gmv_School.csprojResolveAssemblyReference.cache
+F:\gitfolder\gmv_School\gmv_School\bin\gmv_School.dll.config
+F:\gitfolder\gmv_School\gmv_School\bin\gmv_School.dll
+F:\gitfolder\gmv_School\gmv_School\bin\gmv_School.pdb
+F:\gitfolder\gmv_School\gmv_School\obj\Debug\gmv_School.csprojResolveAssemblyReference.cache
+F:\gitfolder\gmv_School\gmv_School\obj\Debug\gmv_School.dll
+F:\gitfolder\gmv_School\gmv_School\obj\Debug\gmv_School.pdb
